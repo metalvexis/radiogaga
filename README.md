@@ -1,9 +1,6 @@
-# radiogaga
-Test App
-
-
 # Scenario
-Radio Buttons
+
+# Radio Buttons
 Create an interactive and dynamic HTML form in JavaScript***. The form should render multiple groups of radio buttons.
 
 ***You are welcome to solve the problem using vanilla ES5/6/7, TypeScript, React, Vue or Angular. Feel free to use your own tools or libraries that you like.
@@ -14,6 +11,7 @@ Please showcase your use of semantic HTML and modern CSS.
 
 The radio-button groups should be dynamically rendered based on the following data, which you can imagine has come back from an API response:
 
+```
 {
   menus: [
     // first group of radio-buttons
@@ -52,6 +50,8 @@ The radio-button groups should be dynamically rendered based on the following da
     205: [304],
   }
 }
+```
+
 Initially, only items from the first group are able to be selected. Inputs in subsequent groups are to be initially disabled.
 
 When an item from the first group is selected, valid items from the next group are enabled.
@@ -67,9 +67,11 @@ When complete, create a private repository in GitHub and invite these users to a
 
 We will evaluate your response based on the following criteria:
 
-Problem solving and design approach.
-Architectural approach / programming paradigms used. We preference a functional/immutable style; while you don't have to follow this, you're encouraged to show off these skills if you are familiar with them. Keeping consistency within whatever paradigm you use is, however, important.
-Best practices within the chosen frame.
-Consistency in style, readability, naming conventions.
-Code should be easy to read and understand. Self-explanitory variable/function/method names, with little to no comments required.
+- Problem solving and design approach.
+
+- Architectural approach / programming paradigms used. We preference a functional/immutable style; while you don't have to follow this, you're encouraged to show off these skills if you are familiar with them. Keeping consistency within whatever paradigm you use is, however, important.
+
+- Best practices within the chosen frame.
+- Consistency in style, readability, naming conventions.
+- Code should be easy to read and understand. Self-explanitory variable/function/method names, with little to no comments required.
 Reduce code duplication, minimise nested indentation (ie pyramids of doom); prefer use of abstracting functionality.

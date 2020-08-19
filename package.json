@@ -21,7 +21,8 @@
   "dependencies": {
     "@babel/polyfill": "^7.2.5",
     "body-parser": "^1.18.3",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "cors": "^2.8.5"
   },
   "devDependencies": {
     "@babel/cli": "7.2.3",
