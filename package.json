@@ -1,0 +1,34 @@
+{
+  "name": "RadioGaga",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./tests",
+    "build": "rm -rf .dist && ./node_modules/.bin/babel --config-file ./babel.config.json ./server -d .dist",
+    "start": "nodemon --delay 2 --watch server --watch html --watch app --ignore .dist --exec \"yarn build && node index.js\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metalvexis/radiogaga.git"
+  },
+  "author": "James Saballegue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/metalvexis/radiogaga/issues"
+  },
+  "homepage": "https://github.com/metalvexis/radiogaga#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.2.5",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.2.3",
+    "@babel/core": "7.2.2",
+    "@babel/preset-env": "7.3.1",
+    "babel-eslint": "^10.0.3",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "eslint": "^6.4.0"
+  }
+}
